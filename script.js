@@ -30,3 +30,13 @@ btn.addEventListener("click" , () => {
 function disappear(){
     document.getElementById("div2").style.visibility = "hidden";
 }
+let btn1 =document.querySelector("#btn1");
+btn1.addEventListener("click" , () => {
+    document.querySelector("#div3").style.visibility = "visible";
+}); 
+
+
+function goAway(){
+    document.getElementById("div3").style.visibility = "hidden";
+}
+
